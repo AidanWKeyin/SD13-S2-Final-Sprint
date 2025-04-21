@@ -3,7 +3,7 @@ import './Hero.css'
 
 import arrow_icon from '../Assets/arrow.png'
 import hand_icon from '../Assets/hand_icon.png'
-import hero_image from '../Assets/hero_image.png'
+import hero_image from '../Assets/WM1.avif'
 
 export const Hero = () => {
   return (
@@ -14,10 +14,10 @@ export const Hero = () => {
                 <h2>New Arrivals Only</h2>
                 <div>
                     <div className="hand-hand-icon">
-                        <p>new</p>
-                        <img src={hand_icon} alt="" /> 
+                        <p>New</p>
+                        {/* <img src={hand_icon} alt="" />  */}
                     </div>
-                    <p>collections</p>
+                    <p>Clothing</p>
                     <p>for everyone</p>
                 </div>
                 <div className="hero=latest-btn">
@@ -26,7 +26,7 @@ export const Hero = () => {
                 </div>
             </div>
             <div className="hero-right">
-                <img src='{hero_image}' alt="" />
+                <img src={hero_image} alt="" />
 
 
 

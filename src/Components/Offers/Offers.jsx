@@ -13,7 +13,7 @@ export const Offers = () => {
             <button>Check Now</button>
         </div>
         <div className="offers-right">
-            <img src='{exclusive_image}' alt="" />
+            <img src={exclusive_image} alt="" />
         </div>
 
     </div>
